@@ -52,3 +52,9 @@ Copy wezterm files
 cp ./.wezterm/.wezterm.lua $WINDOWS_HOME
 cp -r ./.wezterm/backgrounds/ $WINDOWS_HOME
 ```
+
+TODO: add .bashrc, dircolors, etc
+Customize zsh
+```
+https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/
+```
