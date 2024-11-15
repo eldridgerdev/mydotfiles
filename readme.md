@@ -20,6 +20,19 @@ sudo apt-get install stow
 
 ## Installation
 
+Make zsh the default shell for Linux:
+
+```
+sudo apt install -y zsh
+chsh -s $(which zsh)
+```
+
+Install oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 Check out dotfiles repo in $HOME directory
 
 ```
@@ -36,6 +49,6 @@ stow .
 Copy wezterm files
 
 ```
-cp ./.wezterm/wezterm.lua $WINDOWS_HOME
-cp ./.wezterm/backgrounds/ $WINDOWS_HOME
+cp ./.wezterm/.wezterm.lua $WINDOWS_HOME
+cp -r ./.wezterm/backgrounds/ $WINDOWS_HOME
 ```
