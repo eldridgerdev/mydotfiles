@@ -18,7 +18,7 @@ local lightBackground = {
 }
 local darkColor = "Gruvbox dark, soft (base16)"
 local lightColor = "Gruvbox light, soft (base16)"
-local darkImage = "C:\\Users\\eldri\\backgrounds\\op2.png"
+local darkImage = wezterm.config_dir .. "\\backgrounds\\op2.png"
 local lightImage = nil
 
 -- This is where you actually apply your config choices
