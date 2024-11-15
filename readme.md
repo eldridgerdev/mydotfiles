@@ -43,6 +43,6 @@ stow .
 Copy wezterm files
 
 ```
-cp ./.wezterm/wezterm.lua $WINDOWS_HOME
-cp ./.wezterm/backgrounds/ $WINDOWS_HOME
+cp ./.wezterm/.wezterm.lua $WINDOWS_HOME
+cp -r ./.wezterm/backgrounds/ $WINDOWS_HOME
 ```
