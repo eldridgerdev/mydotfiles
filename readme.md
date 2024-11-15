@@ -20,6 +20,13 @@ sudo apt-get install stow
 
 ## Installation
 
+Make zsh the default shell for Linux:
+
+```
+sudo apt install -y zsh
+chsh -s $(which zsh)
+```
+
 Check out dotfiles repo in $HOME directory
 
 ```
