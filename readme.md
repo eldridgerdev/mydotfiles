@@ -27,6 +27,12 @@ sudo apt install -y zsh
 chsh -s $(which zsh)
 ```
 
+Install oh-my-zsh
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 Check out dotfiles repo in $HOME directory
 
 ```
