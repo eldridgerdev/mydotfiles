@@ -58,3 +58,10 @@ Customize zsh
 ```
 https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/
 ```
+from oh-my-zsh plugins folder
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+```
