@@ -16,31 +16,33 @@ local lightBackground = {
 	hue = 5,
 	saturation = 0.5,
 }
-local darkColor = "Gruvbox dark, soft (base16)"
+-- local darkColor = "Gruvbox dark, soft (base16)"
+local darkColor = "Catpuccin Mocha"
 local lightColor = "Gruvbox light, soft (base16)"
-local darkImage = wezterm.config_dir .. "\\backgrounds\\op2.png"
+-- local darkImage = "C:\\Users\\eldri\\backgrounds\\op2.png"
+local darkImage = nil
 local lightImage = nil
 
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = darkColor
+config.color_scheme = lightColor
 --- config.font = wezterm.font 'Fira Code Nerd Font'
 config.default_domain = "WSL:Ubuntu"
 
 -- config.window_background_image = "C:\\Users\\eldri\\xwtbackground.jpeg"
-config.window_background_image = darkImage
-config.window_background_image_hsb = darkBackground
+config.window_background_image = lightImage
+config.window_background_image_hsb = lightBackground
 
 wezterm.on("toggle-theme", function(window, pane)
 	local overrides = window:get_config_overrides() or {}
 	if currentTheme == "dark" then
-		overrides.color_scheme = "Gruvbox light, soft (base16)"
+		overrides.color_scheme = "Catpuccin Mocha"
 		overrides.background_image = lightImage
 		overrides.background_image_hsb = lightBackground
 		currentTheme = "light"
 	else
-		overrids.color_scheme = "Gruvbox dark, soft (base16)"
+		overrides.color_scheme = "Catpuccin Mocha"
 		overrides.background_image = darkImage
 		overrides.background_image_hsb = darkBackground
 		currentTheme = "dark"

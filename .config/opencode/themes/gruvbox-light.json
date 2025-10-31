@@ -1,0 +1,243 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "gb_light_bg0": "#f9f5d7",
+    "gb_light_bg1": "#ebdbb2",
+    "gb_light_bg2": "#d5c4a1",
+    "gb_light_bg3": "#bdae93",
+    "gb_light_bg4": "#a89984",
+    "gb_light_fg0": "#282828",
+    "gb_light_fg1": "#3c3836",
+    "gb_light_fg2": "#504945",
+    "gb_light_fg3": "#665c54",
+    "gb_light_fg4": "#7c6f64",
+    "gb_light_red": "#cc241d",
+    "gb_light_green": "#98971a",
+    "gb_light_yellow": "#d79921",
+    "gb_light_blue": "#458588",
+    "gb_light_purple": "#b16286",
+    "gb_light_aqua": "#689d6a",
+    "gb_light_orange": "#d65d0e",
+    "gb_light_gray": "#928374",
+    "gb_dark_bg0": "#282828",
+    "gb_dark_bg1": "#3c3836",
+    "gb_dark_bg2": "#504945",
+    "gb_dark_bg3": "#665c54",
+    "gb_dark_bg4": "#7c6f64",
+    "gb_dark_fg0": "#fbf1c7",
+    "gb_dark_fg1": "#ebdbb2",
+    "gb_dark_fg2": "#d5c4a1",
+    "gb_dark_fg3": "#bdae93",
+    "gb_dark_fg4": "#a89984",
+    "gb_dark_red": "#fb4934",
+    "gb_dark_green": "#b8bb26",
+    "gb_dark_yellow": "#fabd2f",
+    "gb_dark_blue": "#83a598",
+    "gb_dark_purple": "#d3869b",
+    "gb_dark_aqua": "#8ec07c",
+    "gb_dark_orange": "#fe8019",
+    "gb_dark_gray": "#a89984"
+  },
+  "theme": {
+    "primary": {
+      "dark": "gb_dark_blue",
+      "light": "gb_light_blue"
+    },
+    "secondary": {
+      "dark": "gb_dark_purple",
+      "light": "gb_light_purple"
+    },
+    "accent": {
+      "dark": "gb_dark_aqua",
+      "light": "gb_light_aqua"
+    },
+    "error": {
+      "dark": "gb_dark_red",
+      "light": "gb_light_red"
+    },
+    "warning": {
+      "dark": "gb_dark_yellow",
+      "light": "gb_light_yellow"
+    },
+    "success": {
+      "dark": "gb_dark_green",
+      "light": "gb_light_green"
+    },
+    "info": {
+      "dark": "gb_dark_blue",
+      "light": "gb_light_blue"
+    },
+    "text": {
+      "dark": "gb_dark_fg0",
+      "light": "gb_light_fg0"
+    },
+    "textMuted": {
+      "dark": "gb_dark_fg4",
+      "light": "gb_light_fg4"
+    },
+    "background": {
+      "dark": "gb_dark_bg0",
+      "light": "gb_light_bg0"
+    },
+    "backgroundPanel": {
+      "dark": "gb_dark_bg1",
+      "light": "gb_light_bg1"
+    },
+    "backgroundElement": {
+      "dark": "gb_dark_bg2",
+      "light": "gb_light_bg2"
+    },
+    "border": {
+      "dark": "gb_dark_bg3",
+      "light": "gb_light_bg3"
+    },
+    "borderActive": {
+      "dark": "gb_dark_bg4",
+      "light": "gb_light_bg4"
+    },
+    "borderSubtle": {
+      "dark": "gb_dark_bg2",
+      "light": "gb_light_bg2"
+    },
+    "diffAdded": {
+      "dark": "gb_dark_green",
+      "light": "gb_light_green"
+    },
+    "diffRemoved": {
+      "dark": "gb_dark_red",
+      "light": "gb_light_red"
+    },
+    "diffContext": {
+      "dark": "gb_dark_fg4",
+      "light": "gb_light_fg4"
+    },
+    "diffHunkHeader": {
+      "dark": "gb_dark_fg3",
+      "light": "gb_light_fg3"
+    },
+    "diffHighlightAdded": {
+      "dark": "gb_dark_green",
+      "light": "gb_light_green"
+    },
+    "diffHighlightRemoved": {
+      "dark": "gb_dark_red",
+      "light": "gb_light_red"
+    },
+    "diffAddedBg": {
+      "dark": "gb_dark_bg1",
+      "light": "gb_light_bg1"
+    },
+    "diffRemovedBg": {
+      "dark": "gb_dark_bg1",
+      "light": "gb_light_bg1"
+    },
+    "diffContextBg": {
+      "dark": "gb_dark_bg0",
+      "light": "gb_light_bg0"
+    },
+    "diffLineNumber": {
+      "dark": "gb_dark_fg4",
+      "light": "gb_light_fg4"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "gb_dark_bg1",
+      "light": "gb_light_bg1"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "gb_dark_bg1",
+      "light": "gb_light_bg1"
+    },
+    "markdownText": {
+      "dark": "gb_dark_fg0",
+      "light": "gb_light_fg0"
+    },
+    "markdownHeading": {
+      "dark": "gb_dark_blue",
+      "light": "gb_light_blue"
+    },
+    "markdownLink": {
+      "dark": "gb_dark_blue",
+      "light": "gb_light_blue"
+    },
+    "markdownLinkText": {
+      "dark": "gb_dark_blue",
+      "light": "gb_light_blue"
+    },
+    "markdownCode": {
+      "dark": "gb_dark_green",
+      "light": "gb_light_green"
+    },
+    "markdownBlockQuote": {
+      "dark": "gb_dark_fg4",
+      "light": "gb_light_fg4"
+    },
+    "markdownEmph": {
+      "dark": "gb_dark_yellow",
+      "light": "gb_light_yellow"
+    },
+    "markdownStrong": {
+      "dark": "gb_dark_red",
+      "light": "gb_light_red"
+    },
+    "markdownHorizontalRule": {
+      "dark": "gb_dark_bg3",
+      "light": "gb_light_bg3"
+    },
+    "markdownListItem": {
+      "dark": "gb_dark_blue",
+      "light": "gb_light_blue"
+    },
+    "markdownListEnumeration": {
+      "dark": "gb_dark_purple",
+      "light": "gb_light_purple"
+    },
+    "markdownImage": {
+      "dark": "gb_dark_orange",
+      "light": "gb_light_orange"
+    },
+    "markdownImageText": {
+      "dark": "gb_dark_orange",
+      "light": "gb_light_orange"
+    },
+    "markdownCodeBlock": {
+      "dark": "gb_dark_fg0",
+      "light": "gb_light_fg0"
+    },
+    "syntaxComment": {
+      "dark": "gb_dark_gray",
+      "light": "gb_light_gray"
+    },
+    "syntaxKeyword": {
+      "dark": "gb_dark_red",
+      "light": "gb_light_red"
+    },
+    "syntaxFunction": {
+      "dark": "gb_dark_blue",
+      "light": "gb_light_blue"
+    },
+    "syntaxVariable": {
+      "dark": "gb_dark_fg0",
+      "light": "gb_light_fg0"
+    },
+    "syntaxString": {
+      "dark": "gb_dark_green",
+      "light": "gb_light_green"
+    },
+    "syntaxNumber": {
+      "dark": "gb_dark_purple",
+      "light": "gb_light_purple"
+    },
+    "syntaxType": {
+      "dark": "gb_dark_yellow",
+      "light": "gb_light_yellow"
+    },
+    "syntaxOperator": {
+      "dark": "gb_dark_aqua",
+      "light": "gb_light_aqua"
+    },
+    "syntaxPunctuation": {
+      "dark": "gb_dark_fg3",
+      "light": "gb_light_fg3"
+    }
+  }
+}

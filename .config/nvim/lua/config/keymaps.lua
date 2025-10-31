@@ -27,3 +27,7 @@ keymap.set("n", "<leader>ol", "<cmd>ObsidianLinks<CR>", { desc = "Show Obsidian 
 keymap.set("n", "<leader>on", "<cmd>ObsidianNew<CR>", { desc = "Create New Note" })
 keymap.set("n", "<leader>os", "<cmd>ObsidianSearch<CR>", { desc = "Search Obsidian" })
 keymap.set("n", "<leader>oq", "<cmd>ObsidianQuickSwitch<CR>", { desc = "Obsidian Quick Switch" })
+
+-- Half page navigation with centering
+keymap.set("n", "<C-j>", "<C-d>zz", { desc = "Half page down and center" })
+keymap.set("n", "<C-k>", "<C-u>zz", { desc = "Half page up and center" })

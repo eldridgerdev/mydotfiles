@@ -1,0 +1,259 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "macchiato_rosewater": "#f4dbd6",
+    "macchiato_flamingo": "#f0c6c6",
+    "macchiato_pink": "#f5bde6",
+    "macchiato_mauve": "#c6a0f6",
+    "macchiato_red": "#ed8796",
+    "macchiato_maroon": "#ee99a0",
+    "macchiato_peach": "#f5a97f",
+    "macchiato_yellow": "#eed49f",
+    "macchiato_green": "#a6da95",
+    "macchiato_teal": "#8bd5ca",
+    "macchiato_sky": "#91d7e3",
+    "macchiato_sapphire": "#7dc4e4",
+    "macchiato_blue": "#8aadf4",
+    "macchiato_lavender": "#b7bdf8",
+    "macchiato_text": "#cad3f5",
+    "macchiato_subtext1": "#b8c0e0",
+    "macchiato_subtext0": "#a5adcb",
+    "macchiato_overlay2": "#939ab7",
+    "macchiato_overlay1": "#8087a2",
+    "macchiato_overlay0": "#6e738d",
+    "macchiato_surface2": "#5b6078",
+    "macchiato_surface1": "#494d64",
+    "macchiato_surface0": "#363a4f",
+    "macchiato_base": "#24273a",
+    "macchiato_mantle": "#1e2030",
+    "macchiato_crust": "#181926",
+    "latte_rosewater": "#dc8a78",
+    "latte_flamingo": "#dd7878",
+    "latte_pink": "#ea76cb",
+    "latte_mauve": "#8839ef",
+    "latte_red": "#d20f39",
+    "latte_maroon": "#e64553",
+    "latte_peach": "#fe640b",
+    "latte_yellow": "#df8e1d",
+    "latte_green": "#40a02b",
+    "latte_teal": "#179299",
+    "latte_sky": "#04a5e5",
+    "latte_sapphire": "#209fb5",
+    "latte_blue": "#1e66f5",
+    "latte_lavender": "#7287fd",
+    "latte_text": "#4c4f69",
+    "latte_subtext1": "#5c5f77",
+    "latte_subtext0": "#6c6f85",
+    "latte_overlay2": "#7c7f93",
+    "latte_overlay1": "#8c8fa1",
+    "latte_overlay0": "#9ca0b0",
+    "latte_surface2": "#acb0be",
+    "latte_surface1": "#bcc0cc",
+    "latte_surface0": "#ccd0da",
+    "latte_base": "#eff1f5",
+    "latte_mantle": "#e6e9ef",
+    "latte_crust": "#dce0e8"
+  },
+  "theme": {
+    "primary": {
+      "dark": "macchiato_blue",
+      "light": "latte_blue"
+    },
+    "secondary": {
+      "dark": "macchiato_lavender",
+      "light": "latte_lavender"
+    },
+    "accent": {
+      "dark": "macchiato_mauve",
+      "light": "latte_mauve"
+    },
+    "error": {
+      "dark": "macchiato_red",
+      "light": "latte_red"
+    },
+    "warning": {
+      "dark": "macchiato_yellow",
+      "light": "latte_yellow"
+    },
+    "success": {
+      "dark": "macchiato_green",
+      "light": "latte_green"
+    },
+    "info": {
+      "dark": "macchiato_blue",
+      "light": "latte_blue"
+    },
+    "text": {
+      "dark": "macchiato_text",
+      "light": "latte_text"
+    },
+    "textMuted": {
+      "dark": "macchiato_subtext1",
+      "light": "latte_subtext1"
+    },
+    "background": {
+      "dark": "macchiato_base",
+      "light": "latte_base"
+    },
+    "backgroundPanel": {
+      "dark": "macchiato_mantle",
+      "light": "latte_mantle"
+    },
+    "backgroundElement": {
+      "dark": "macchiato_surface0",
+      "light": "latte_surface0"
+    },
+    "border": {
+      "dark": "macchiato_surface1",
+      "light": "latte_surface1"
+    },
+    "borderActive": {
+      "dark": "macchiato_surface2",
+      "light": "latte_surface2"
+    },
+    "borderSubtle": {
+      "dark": "macchiato_surface0",
+      "light": "latte_surface0"
+    },
+    "diffAdded": {
+      "dark": "macchiato_green",
+      "light": "latte_green"
+    },
+    "diffRemoved": {
+      "dark": "macchiato_red",
+      "light": "latte_red"
+    },
+    "diffContext": {
+      "dark": "macchiato_overlay0",
+      "light": "latte_overlay0"
+    },
+    "diffHunkHeader": {
+      "dark": "macchiato_overlay1",
+      "light": "latte_overlay1"
+    },
+    "diffHighlightAdded": {
+      "dark": "macchiato_green",
+      "light": "latte_green"
+    },
+    "diffHighlightRemoved": {
+      "dark": "macchiato_red",
+      "light": "latte_red"
+    },
+    "diffAddedBg": {
+      "dark": "macchiato_mantle",
+      "light": "latte_mantle"
+    },
+    "diffRemovedBg": {
+      "dark": "macchiato_mantle",
+      "light": "latte_mantle"
+    },
+    "diffContextBg": {
+      "dark": "macchiato_base",
+      "light": "latte_base"
+    },
+    "diffLineNumber": {
+      "dark": "macchiato_overlay0",
+      "light": "latte_overlay0"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "macchiato_mantle",
+      "light": "latte_mantle"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "macchiato_mantle",
+      "light": "latte_mantle"
+    },
+    "markdownText": {
+      "dark": "macchiato_text",
+      "light": "latte_text"
+    },
+    "markdownHeading": {
+      "dark": "macchiato_blue",
+      "light": "latte_blue"
+    },
+    "markdownLink": {
+      "dark": "macchiato_blue",
+      "light": "latte_blue"
+    },
+    "markdownLinkText": {
+      "dark": "macchiato_blue",
+      "light": "latte_blue"
+    },
+    "markdownCode": {
+      "dark": "macchiato_green",
+      "light": "latte_green"
+    },
+    "markdownBlockQuote": {
+      "dark": "macchiato_overlay0",
+      "light": "latte_overlay0"
+    },
+    "markdownEmph": {
+      "dark": "macchiato_yellow",
+      "light": "latte_yellow"
+    },
+    "markdownStrong": {
+      "dark": "macchiato_red",
+      "light": "latte_red"
+    },
+    "markdownHorizontalRule": {
+      "dark": "macchiato_surface1",
+      "light": "latte_surface1"
+    },
+    "markdownListItem": {
+      "dark": "macchiato_blue",
+      "light": "latte_blue"
+    },
+    "markdownListEnumeration": {
+      "dark": "macchiato_mauve",
+      "light": "latte_mauve"
+    },
+    "markdownImage": {
+      "dark": "macchiato_pink",
+      "light": "latte_pink"
+    },
+    "markdownImageText": {
+      "dark": "macchiato_pink",
+      "light": "latte_pink"
+    },
+    "markdownCodeBlock": {
+      "dark": "macchiato_text",
+      "light": "latte_text"
+    },
+    "syntaxComment": {
+      "dark": "macchiato_overlay1",
+      "light": "latte_overlay1"
+    },
+    "syntaxKeyword": {
+      "dark": "macchiato_mauve",
+      "light": "latte_mauve"
+    },
+    "syntaxFunction": {
+      "dark": "macchiato_blue",
+      "light": "latte_blue"
+    },
+    "syntaxVariable": {
+      "dark": "macchiato_text",
+      "light": "latte_text"
+    },
+    "syntaxString": {
+      "dark": "macchiato_green",
+      "light": "latte_green"
+    },
+    "syntaxNumber": {
+      "dark": "macchiato_peach",
+      "light": "latte_peach"
+    },
+    "syntaxType": {
+      "dark": "macchiato_yellow",
+      "light": "latte_yellow"
+    },
+    "syntaxOperator": {
+      "dark": "macchiato_sky",
+      "light": "latte_sky"
+    },
+    "syntaxPunctuation": {
+      "dark": "macchiato_overlay2",
+      "light": "latte_overlay2"
+    }
+  }
+}
