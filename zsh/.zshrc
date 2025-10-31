@@ -1,11 +1,15 @@
-export PATH=$PATH:/snap/bin/:~/.cargo/bin:~/.rustup/bin
+export PATH=$HOME/.local/bin:$PATH:/snap/bin/:~/.cargo/bin:~/.rustup/bin
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 alias s="source ~/.zshrc"
 alias c="clear"
+alias ls="exa --sort=name"
+alias cd="z"
 export NVM_DIR="/home/eldridger/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+export DISPLAY=:0
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -89,7 +93,6 @@ eval `dircolors ~/.dircolors`
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	adb
 	command-not-found
     extract
     deno
@@ -155,3 +158,16 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+# Initialize zoxide
+eval "$(zoxide init zsh)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# opencode
+export PATH=/home/eldridger/.opencode/bin:$PATH
