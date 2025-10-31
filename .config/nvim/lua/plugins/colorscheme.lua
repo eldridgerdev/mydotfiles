@@ -36,7 +36,7 @@ local toggle = function(bgDark)
   end
   return bg
 end
-local bgDark = false
+local bgDark = true
 
 vim.keymap.set("n", "<leader>t", function()
   bgDark = toggle(bgDark)

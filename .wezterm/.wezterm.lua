@@ -16,8 +16,8 @@ local lightBackground = {
 	hue = 5,
 	saturation = 0.5,
 }
--- local darkColor = "Gruvbox dark, soft (base16)"
-local darkColor = "Catpuccin Mocha"
+local darkColor = "Gruvbox dark, soft (base16)"
+-- local darkColor = "Catpuccin Mocha"
 local lightColor = "Gruvbox light, soft (base16)"
 -- local darkImage = "C:\\Users\\eldri\\backgrounds\\op2.png"
 local darkImage = nil
@@ -26,13 +26,13 @@ local lightImage = nil
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = lightColor
+config.color_scheme = darkColor
 --- config.font = wezterm.font 'Fira Code Nerd Font'
 config.default_domain = "WSL:Ubuntu"
 
 -- config.window_background_image = "C:\\Users\\eldri\\xwtbackground.jpeg"
-config.window_background_image = lightImage
-config.window_background_image_hsb = lightBackground
+config.window_background_image = darkImage
+config.window_background_image_hsb = darkBackground
 
 wezterm.on("toggle-theme", function(window, pane)
 	local overrides = window:get_config_overrides() or {}
